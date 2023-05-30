@@ -1,0 +1,21 @@
+name: LegendJobs
+version: '${project.version}'
+main: fr.clemkill.legendjobs.LegendJobs
+api-version: 1.19
+softdepend: [ Vault ]
+authors: [ Clemkill ]
+description: Jobs Plugin
+commands:
+  jobs:
+    aliases: job
+    description: Open Job's GUI
+    usage: /jobs
+
+  values:
+    aliases: value
+    usage: /values
+
+  uuid:
+    aliases: id
+    usage: /uuid
+    permission: uuid.use
